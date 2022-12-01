@@ -1,0 +1,460 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.frame-2-2 {
+  position:absolute;
+  top: 0px;
+  left: 750px;
+  height: 1000px;
+  width: 1000px;
+  object-fit: cover;
+}
+
+/*Navbar start */
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1900px;
+  height: 70px;
+}
+.frame-2-1 {
+  position: absolute;
+  top: 11.9px;
+  left: 40px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.swayanshu-b {
+  position: absolute;
+  top: 18px;
+  left: 100px;
+  font-size: 22px;
+  letter-spacing: 0.09em;
+  display: inline-block;
+  cursor: default;
+}
+
+.explore-btn-a {
+  text-decoration: none;
+  position: absolute;
+  top: 16px;
+  left: 1140px;
+  border-radius: var(--br-lg);
+  background-color: transparent;
+  width: 110px;
+  height: 42px;
+}
+.explore-btn-a:hover,
+.home-btn-a:hover {
+  background-color: var(--color-brown);
+  cursor: auto;
+}
+.explore-span {
+  position: absolute;
+  top: 22px;
+  left: 1160px;
+  font-weight: 300;
+  font-size: 20px;
+  display: inline-block;
+  cursor: default;
+}
+.home-btn-a {
+  text-decoration: none;
+  position: absolute;
+  top: 16px;
+  left: 975px;
+  border-radius: var(--br-lg);
+  background-color: transparent;
+  cursor: pointer;
+  width: 110px;
+  height: 42px;
+}
+.home-span {
+  position: absolute;
+  top: 22px;
+  left: 1000px;
+  font-weight: 300;
+  font-size: 20px;
+  display: inline-block;
+  cursor: default;
+}
+.home-span:hover {
+  color: var(--color-black);
+}
+.icround-search-div {
+  position: absolute;
+  top: 34.7px;
+  left: 629px;
+  width: 35px;
+  height: 36px;
+  overflow: hidden;
+}
+.nav-bar-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1000px;
+  height: 105.41px;
+  font-size: var(--font-size-lg);
+}
+
+.ellipse-icon {
+  top: 0;
+  left: 0;
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+.ellipse-icon,
+.name-span,
+.name-tab {
+  position: absolute;
+  cursor: default;
+}
+.name-span {
+  top: 9.68px;
+  left: 65px;
+  font-weight: 500;
+  font-size: 22px;
+  display: inline-block;
+}
+.name-tab {
+  text-decoration: none;
+  top: 12px;
+  left: 1300px;
+  width: 153px;
+  height: 48px;
+  font-size: var(--font-size-lg);
+  color: inherit;
+}
+/*Navbar ends here*/
+
+/*left-side dashboard starts here */
+.rectangle-icon {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 250px;
+  height: 1080px;
+  object-fit: cover;
+}
+.rectangle-a,
+.rectangle-a1,
+.rectangle-a2,
+.rectangle-a3 {
+  text-decoration: none;
+  position: absolute;
+  border-radius: var(--br-sm);
+  width: 185px;
+  height: 48px;
+}
+.rectangle-a {
+  top: 255px;
+  left: 28px;
+  background-color: #ededed;
+}
+.rectangle-a1:hover,
+.rectangle-a:hover {
+  cursor: auto;
+}
+.rectangle-a1,
+.rectangle-a2,
+.rectangle-a3 {
+  top: 133px;
+  left: 28px;
+  background-color: var(--color-gray-300);
+  width: 185px;
+  height: 38px;
+}
+.rectangle-a2,
+.rectangle-a3 {
+  top: 203px;
+  height: 40px;
+}
+.rectangle-a2:hover,
+.rectangle-a3:hover {
+  background-color: var(--color-gray-100);
+}
+.rectangle-a3 {
+  top: 155px;
+  left: 28px;
+}
+.material-symbolschat-icon,
+.simple-iconsgooglescholar {
+  position: absolute;
+  top: 208px;
+  left: 65px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.simple-iconsgooglescholar {
+  top: 265px;
+  left: 65px;
+  height: 30px;
+}
+.alumni-span,
+.chat-box-span {
+  position: absolute;
+  top: 210px;
+  left: 110px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  color: var(--color-gray-200);
+  display: inline-block;
+  cursor: pointer;
+}
+.alumni-span {
+  top: 267px;
+  left: 110px;
+}
+.material-symbolsaccount-circl-icon {
+  position: absolute;
+  top: 158px;
+  left: 65px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.dashboard-label,
+.profile-span {
+  position: absolute;
+  letter-spacing: 0.01em;
+  display: inline-block;
+}
+.profile-span {
+  top: 160px;
+  left: 110px;
+  font-weight: 600;
+  color: var(--color-gray-200);
+  cursor: pointer;
+}
+.dashboard-label {
+  top: 110px;
+  left: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #6c6c6c;
+  letter-spacing: 0.12em;
+}
+.log-out-span {
+  position: absolute;
+  top: 340px;
+  left: 105px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  color: var(--color-gray-200);
+  display: inline-block;
+  cursor: pointer;
+}
+.vector-icon {
+  position: absolute;
+  height: 2.78%;
+  width: 1.36%;
+  top: 340px;
+  right: 94.37%;
+  bottom: 56.95%;
+  left: 70px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.line-icon1 {
+  position: absolute;
+  top: 320px;
+  left: 28.51px;
+  width: 190px;
+  height: 3px;
+  object-fit: cover;
+}
+
+/*left-side dashboard ends here */ 
+
+/*main-body starts here*/
+
+.alumni-label {
+  cursor: pointer;
+  position: absolute;
+  top: 90px;
+  left: 300px;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  color: #0c0c40;
+  display: inline-block;
+}
+.line-icon {
+  position: absolute;
+  top: 140px;
+  left: 290px;
+  width: 1200px;
+  height: 2px;
+  object-fit: cover;
+}
+.card-1-div {
+  position: absolute;
+  top: 170px;
+  left: 300px;
+  width: 1000px;
+  height: 230px;
+  font-size: var(--font-size-l);
+}
+.card-2-div {
+  position: absolute;
+  top: 400px;
+  left: 300px;
+  width: 1000px;
+  height: 230px;
+  font-size: var(--font-size-l);
+}
+.card-3-div {
+  position: absolute;
+  top: 630px;
+  left: 300px;
+  width: 1000px;
+  height: 230px;
+  font-size: var(--font-size-l);
+}
+
+.rectangle-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: var(--color-white);
+  width: 1175px;
+  height: 200px;
+}
+.rectangle-div4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: var(--color-white);
+  width: 1175px;
+  height: 200px;
+}
+.name {
+  font-weight: 500;
+}
+.currently-at-microsoft-pvt,
+.name-anshuman-nayak,
+.yop-2021 {
+  position: absolute;
+  top: 35px;
+  left: 300px;
+  display: inline-block;
+  cursor: default;
+  
+}
+.currently-at-microsoft-pvt,
+.yop-2021 {
+  top: 85px;
+  left: 300px;
+}
+.currently-at-microsoft-pvt {
+  top: 135px;
+  left: 300px;
+}
+.ask-a-question {
+  text-decoration: none;
+  position: absolute;
+  top: 150px;
+  left: 880px;
+  font-size: var(--font-size-base);
+  font-weight: 400;
+  color: var(--color-indigo-100);
+  display: inline-block;
+  font-size: 14px;
+}
+.ask-a-question1:hover,
+.ask-a-question:hover, 
+.ask-a-question2:hover {
+  color: var(--color-purple);
+  cursor: pointer;
+}
+
+.rounded-rectangle-icon {
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  border-radius: var(--br-md);
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+}
+.currently-at-microsoft-pvt1,
+.name-anshuman-nayak1,
+.yop-20211 {
+  position: absolute;
+  top: 35px;
+  left: 300px;
+  display: inline-block;
+  cursor: default;
+}
+.currently-at-microsoft-pvt1,
+.yop-20211 {
+  top: 85px;
+  left: 300px;
+}
+.currently-at-microsoft-pvt1 {
+  top: 135px;
+  left: 300px;
+}
+.ask-a-question1 {
+  text-decoration: none;
+  position: absolute;
+  top: 150px;
+  left: 880px;
+  font-size: var(--font-size-base);
+  font-weight: 400;
+  color: var(--color-indigo-100);
+  display: inline-block;
+  font-size: 14px;
+}
+
+
+.name-anshuman-nayak2,
+.yop-20212 {
+  position: absolute;
+  top: 35px;
+  left: 300px;
+  display: inline-block;
+  cursor: default;
+}
+.yop-20212 {
+  top: 85px;
+  left: 300px;
+}
+.currently-at-microsoft-pvt2 {
+  position: absolute;
+  top: 135px;
+  left: 300px;
+  display: inline-block;
+}
+.ask-a-question2 {
+  text-decoration: none;
+  position: absolute;
+  top: 150px;
+  left: 880px;
+  font-size: var(--font-size-base);
+  font-weight: 400;
+  color: var(--color-indigo-100);
+  display: inline-block;
+  font-size: 14px;
+}
+
+.alumni-div {
+  position: relative;
+  background-color: #f0f0f0;
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

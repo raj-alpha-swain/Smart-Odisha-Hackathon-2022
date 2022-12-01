@@ -1,0 +1,20 @@
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-sm: 18px;
+  --font-size-base: 23px;
+  --font-size-lg: 24px;
+
+  /* Colors */
+  --color-gray-100: #b5b5b5;
+  --color-gray-200: #a2a2a2;
+  --color-gray-300: rgba(162, 162, 162, 0);
+  --color-white: #fff;
+  --color-black: #000;
+
+  /* border radiuses */
+  --br-sm: 15px;
+  --br-md: 19px;
+}
